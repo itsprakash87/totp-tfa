@@ -1,0 +1,26 @@
+{
+  "name": "totp-tfa",
+  "version": "1.0.0",
+  "description": "A library for implementing totp based two factor authentication",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/itsprakash87/totp-tfa.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "2fa",
+    "totp",
+    "two",
+    "factor",
+    "authentication"
+  ],
+  "author": "Prakash Sharma",
+  "license": "MIT",
+  "dependencies": {
+    "base32.js": "^0.1.0",
+    "qr-image": "^3.2.0"
+  }
+}
